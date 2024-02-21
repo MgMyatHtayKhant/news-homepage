@@ -26,8 +26,6 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Repository URL](https://github.com/MgMyatHtayKhant/news-homepage)
