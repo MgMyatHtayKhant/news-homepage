@@ -5,7 +5,7 @@ const Hero = () => {
 
     return (
         <>
-            <main className="my-8 px-3 sm:px-6">
+            <main className="my-12 px-3 sm:px-6">
                 <section className="grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-3">
                     <div className="justify-self-center md:col-start-1 md:col-end-3">
                         <picture>
@@ -27,8 +27,8 @@ const Hero = () => {
                             READ MORE
                         </button>
                     </div>
-                    <div className="bg-veryDarkBlue pt-6 px-4 pb-2 my-8 
-                md:my-0 md:col-start-3 md:row-start-1 md:row-end-3">
+                    <div className="bg-veryDarkBlue pt-6 px-4 pb-2 mt-8 
+                md:mt-0 md:col-start-3 md:row-start-1 md:row-end-3">
                         <h2 className="text-softOrange font-bold mb-5 text-xl md:text-3xl">New</h2>
                         {
                             news.map((each, index) => (
@@ -44,7 +44,7 @@ const Hero = () => {
                         }
                     </div>
                 </section>
-                <section className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
+                <section className="mt-12 grid grid-cols-1 gap-4 lg:grid-cols-3">
                     {
                         devices.map(device => (
                             <div key={device.id} className="flex gap-4">
