@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository URL](https://github.com/MgMyatHtayKhant/news-homepage)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://leafy-muffin-cf0edd.netlify.app/)
 
 ## My process
 
