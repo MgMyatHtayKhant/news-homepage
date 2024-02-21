@@ -61,9 +61,9 @@ const Hero = () => {
                     }
                 </section>
             </main>
-            <footer className="text-center text-darkGrayishBlue text-sm px-3">
-                Challenge by <a className="text-blue-500 active:text-red-500 visited:text-veryDarkBlue" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                Coded by <a className="text-blue-500 active:text-red-500 visited:text-veryDarkBlue" href="https://github.com/MgMyatHtayKhant?tab=repositories" target="_blank">Saul</a>.
+            <footer className="text-center text-sm px-3">
+                Challenge by <a className="font-semibold" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a className="font-semibold" href="https://github.com/MgMyatHtayKhant?tab=repositories" target="_blank">Saul</a>.
             </footer>
         </>
     );
