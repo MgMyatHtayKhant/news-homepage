@@ -44,7 +44,7 @@ const Hero = () => {
                         }
                     </div>
                 </section>
-                <section className="mt-7 grid grid-cols-1 gap-4 lg:grid-cols-3">
+                <section className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
                     {
                         devices.map(device => (
                             <div key={device.id} className="flex gap-4">

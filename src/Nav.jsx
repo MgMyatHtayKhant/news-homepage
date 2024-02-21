@@ -10,7 +10,7 @@ const Nav = () => {
 
     return (
         <header>
-            <nav className="py-3 px-3 sm:px-6 flex items-center justify-between">
+            <nav className="mt-12 py-3 px-3 sm:px-6 flex items-center justify-between">
 
                 {/* Logo */}
                 <a href="/">
