@@ -38,7 +38,7 @@ const Nav = () => {
 
             {/* Mobile Menu */}
             <div className={`sm:hidden fixed top-0 right-0 bottom-0
-            space-y-20 w-48 pt-[19px] px-[26px] bg-offWhite z-10 transition-transform
+            space-y-20 w-48 pt-[67px] pl-[26px] pr-[14px]  bg-offWhite z-10 transition-transform
             ${on ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-end">
                     <img
