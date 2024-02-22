@@ -19,11 +19,11 @@ const Nav = () => {
 
                 {/* Menu Items */}
                 <div className="hidden space-x-6 sm:flex">
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Home</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">New</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Popular</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Trending</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Categories</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Home</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">New</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Popular</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Trending</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Categories</a>
                 </div>
 
                 {/* Hamburger Icon */}
@@ -38,7 +38,7 @@ const Nav = () => {
 
             {/* Mobile Menu */}
             <div className={`sm:hidden fixed top-0 right-0 bottom-0
-            space-y-20 w-48 pt-[67px] pl-[26px] pr-[14px]  bg-offWhite z-10 transition-transform
+            space-y-20 w-48 pt-[67px] pl-[26px] pr-[14px]  bg-off-white z-10 transition-transform
             ${on ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-end">
                     <img
@@ -49,11 +49,11 @@ const Nav = () => {
                     />
                 </div>
                 <div className="flex flex-col items-start space-y-4">
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Home</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">New</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Popular</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Trending</a>
-                    <a className="text-darkGrayishBlue hover:text-softRed" href="#">Categories</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Home</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">New</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Popular</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Trending</a>
+                    <a className="text-dark-grayish-blue hover:text-soft-red" href="#">Categories</a>
                 </div>
             </div>
 
