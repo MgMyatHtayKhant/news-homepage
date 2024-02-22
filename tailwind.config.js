@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+      },
       colors: {
         softOrange: 'hsl(35, 77%, 62%)',
         softRed: 'hsl(5, 85%, 63%)',
